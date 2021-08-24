@@ -31,8 +31,7 @@ body {
   display: flex;
   width: 100%;
   margin: 0 auto;
-  padding-top: 76px;
-}
+ }
 .header__wrapper {
   display: flex;
 }
@@ -831,7 +830,9 @@ body {
   .container {
     --container-width: var(--mq-size-lg);
   }
-  /*.burger{flex-direction: row;}*/
+  .header {
+    padding-top: 76px;
+  }
   .burger__menu-button {
     display: none;
     top: 0;
