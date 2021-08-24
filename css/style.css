@@ -148,7 +148,7 @@ body {
   font-family: Montserrat;
   font-weight: bold;
   color: var(--theme-color-text2);
-  font-size: 36px;
+  font-size: 32px;
   line-height: 1.16;
   width: 100%;
   margin-top: 29px;
@@ -224,7 +224,7 @@ body {
 .card__subtitle {
   font-family: Montserrat;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 1.38;
   color: var(--theme-color-text2);
 }
@@ -328,7 +328,7 @@ body {
 .design__subtitle {
   font-family: Montserrat;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 1.19;
   color: var(--theme-color-text2);
   width: 100%;
@@ -387,7 +387,7 @@ body {
 .teamwork__subtitle {
   font-family: Montserrat;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 1.19;
   color: var(--theme-color-text2);
   width: 100%;
@@ -444,7 +444,7 @@ body {
 .testimonial__subtitle {
   font-family: Montserrat;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 1.19;
   color: var(--theme-color-text2);
   width: 100%;
@@ -550,7 +550,7 @@ body {
 .subscription__title {
   font-family: Montserrat;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 1.38;
   color: var(--theme-color-text2);
   width: 100%;
