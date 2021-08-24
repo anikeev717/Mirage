@@ -31,8 +31,8 @@ body {
   display: flex;
   width: 100%;
   margin: 0 auto;
-  padding-top: 1em; 
- }
+  padding-top: 1em;
+}
 .header__wrapper {
   display: flex;
 }
@@ -148,7 +148,7 @@ body {
   font-family: Montserrat;
   font-weight: bold;
   color: var(--theme-color-text2);
-  font-size: 30px;
+  font-size: 32px;
   line-height: 1.16;
   width: 100%;
   margin-top: 29px;
@@ -201,8 +201,8 @@ body {
   object-position: center;
   object-fit: cover;
   display: block;
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
 }
 .card {
   margin-top: 100px;
@@ -307,9 +307,9 @@ body {
 .design__image {
   display: block;
   object-fit: cover;
-  object-position: bottom;
-  width: 50%;
-  height: 50%;
+  object-position: center;
+  width: 100%;
+  height: 100%;
   margin: 0 auto;
 }
 .design__info {
@@ -367,8 +367,8 @@ body {
   display: block;
   object-fit: cover;
   object-position: center;
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
   margin: 0 auto;
 }
 .teamwork__info {
@@ -418,9 +418,9 @@ body {
 .testimonial__image {
   display: block;
   object-fit: cover;
-  object-position: bottom;
-  width: 50%;
-  height: 50%;
+  object-position: center;
+  width: 100%;
+  height: 100%;
   margin: 0 auto;
 }
 .testimonial__wrapper {
@@ -516,7 +516,7 @@ body {
 .brand__image {
   display: block;
   object-fit: cover;
-  object-position: bottom;
+  object-position: center;
   width: 75%;
   height: 75%;
   transition: 0.5s;
@@ -536,8 +536,8 @@ body {
   display: block;
   object-fit: cover;
   object-position: center;
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
 }
 .subscription__info {
   display: flex;
@@ -563,7 +563,7 @@ body {
   color: var(--theme-color-text3);
   width: 100%;
   margin-top: 18px;
- }
+}
 .subscription__form {
   display: flex;
   position: relative;
@@ -831,6 +831,7 @@ body {
   .header {
     padding-top: 76px;
   }
+
   .burger__menu-button {
     display: none;
     top: 0;
@@ -1038,13 +1039,6 @@ body {
   .teamwork__title,
   .testimonial__title {
     font-size: 24px;
-  }
-  .section__image,
-  .design__image,
-  .teamwork__image,
-  .testimonial__image {
-    width: 100%;
-    height: 100%;
   }
   .testimonial__info {
     margin-left: 137.21px;
