@@ -583,12 +583,12 @@ body {
   height: 32px;
   font-family: Montserrat;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.6;
   display: block;
   position: absolute;
   align-self: center;
-  left: 5%;
+  left: 10%;
   color: var(--theme-color-text2);
 }
 .subscription__email::placeholder {
@@ -621,7 +621,7 @@ body {
   background-size: 25%;
   font-family: Montserrat;
   font-weight: 900;
-  font-size: 10px;
+  font-size: 7px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--theme-color-base);
@@ -790,6 +790,13 @@ body {
 @media screen and (min-width: 576px) {
   .container {
     --container-width: var(--mq-size-sm);
+  }
+  .subscription__email {
+    font-size: 14px;
+    left: 5%;
+  }
+  #subscription__submit {
+    font-size: 10px;
   }
 }
 @media screen and (min-width: 768px) {
