@@ -543,7 +543,6 @@ body {
 .subscription__info {
   display: flex;
   text-align: center;
-  align-items: center;
   flex-direction: column;
   width: 100%;
 }
@@ -981,9 +980,6 @@ body {
   }
   .subscription {
     margin-top: 140px;
-  }
-  .subscription__description {
-    padding-left: 20px;
   }
   .footer {
     margin-top: 209px;
