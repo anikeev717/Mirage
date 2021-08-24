@@ -483,7 +483,6 @@ body {
   display: flex;
   width: 53px;
   height: 25px;
-  margin-right: 50px;
 }
 .arrow__left {
   width: 100%;
@@ -902,6 +901,9 @@ body {
   }
   .testimonial__info {
     margin-left: 70px;
+  }
+  .testimonial__arrow {
+    margin-right: 50px;
   }
   .brand__image {
     width: 100%;
