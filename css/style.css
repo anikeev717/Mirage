@@ -107,7 +107,6 @@ body {
 .navigation__menu {
   display: flex;
   flex-direction: column;
-  box-shadow: 20px 20px 40px rgba(205, 205, 205, 0.25);
   border-radius: 4px;
   padding-top: 20px;
   height: 0;
