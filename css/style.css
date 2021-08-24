@@ -565,8 +565,7 @@ body {
   color: var(--theme-color-text3);
   width: 100%;
   margin-top: 18px;
-  padding-left: 20px;
-}
+ }
 .subscription__form {
   display: flex;
   position: relative;
@@ -982,6 +981,9 @@ body {
   }
   .subscription {
     margin-top: 140px;
+  }
+  .subscription__description {
+    padding-left: 20px;
   }
   .footer {
     margin-top: 209px;
